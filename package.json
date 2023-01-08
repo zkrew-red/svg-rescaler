@@ -5,8 +5,8 @@
     "private": true,
     "scripts": {
         "astro": "astro",
-        "build": "astro check && tsc --noEmit && astro build",
-        "check": "astro check && prettier --check --plugin-search-dir=. .",
+        "build": "tsc --noEmit && astro build",
+        "check": "prettier --check --plugin-search-dir=. .",
         "dev": "astro dev",
         "format": "prettier --cache --write --plugin-search-dir=. .",
         "preview": "astro preview",

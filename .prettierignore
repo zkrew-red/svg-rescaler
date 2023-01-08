@@ -1,0 +1,10 @@
+# build output
+dist/
+scratch/
+
+# dependencies
+node_modules/
+pnpm-lock.yaml
+
+# logs
+pnpm-debug.log*

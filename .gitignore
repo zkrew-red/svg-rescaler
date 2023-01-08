@@ -1,0 +1,9 @@
+# build output
+dist/
+scratch/
+
+# dependencies
+node_modules/
+
+# logs
+pnpm-debug.log*

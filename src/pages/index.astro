@@ -1,0 +1,251 @@
+---
+import DownloadIcon from '@astropub/icons/Download';
+import Emoji from "astro-emoji";
+import Layout from "../layouts/Layout.astro";
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="reScaler - Quick SVG Icon Resizer">
+    <main>
+        <!--Logo-->
+        <h1>reScaler</h1>
+        <h2>Quick SVG Icon Resizer</h2>
+        <!--//Logo-->
+        <p class="promote">
+            <a href="https://github.com/zkrew-red/myscale" target="_blank"
+                >Source</a
+            ><a
+                href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fzkrew.red%2Frescaler%2F&hashtags=rescaler%2Csvg%2Ciconresizer%2Csvgtopng&related=webkul&text=reScaler%20-%20Quick%20SVG%20Icon%20Resizer%20%40webkul"
+                target="_blank">Tweet</a
+            >
+        </p>
+        <!--File Upload-->
+        <div class="btn-wrapper">
+            <label class="btn" for="file_upload">Upload SVG</label>
+            <input type="file" id="file_upload" accept=".svg" />
+        </div>
+        <!--//File Upload-->
+
+        <!--Uploaded SVG Preview-->
+        <div class="preview" id="svg_preview"></div>
+        <!--//Uploaded SVG Preview-->
+
+        <form id="svg_form">
+            <input
+                type="number"
+                id="resize_value"
+                required
+                placeholder="Enter Resize Value"
+            />
+            <button type="button" onclick="playGround();exportResizedSvg();"
+                >Generate</button
+            >
+        </form>
+        <div class="download-wrapper" id="download_wrapper">
+            <a
+                href="data:"
+                id="data"
+                download="svg"
+                class="download-png"
+                target="_blank">
+                <DownloadIcon size="32" />Download PNG</a>
+        </div>
+        <img alt="" src="" id="fromcanvas" />
+        <p class="credits">
+            Crafted with
+            {" "}
+            <Emoji symbol="💚" label="love" />
+            {" "}
+            by <a href="http://zkrew.red" target="_blank"><span>RedWerkz</span></a>
+        </p>
+        <script is:inline src={base + "/assets/svg_todataurl.js"}></script>
+        <script is:inline src={base + "/assets/script.js"}></script>
+    </main>
+</Layout>
+
+<style is:global>
+    h1,
+    h2 {
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        font-family: "Roboto Mono", monospace;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 20px 0px 0px 0px;
+    }
+
+    h2 {
+        margin: 10px;
+    }
+
+    [astro-icon] {
+        display: inline;
+        position: relative;
+        top: 0.15em;
+        width: 1rem;
+    }
+
+    div.preview svg {
+        display: block;
+        margin: 30px auto;
+    }
+
+    svg:nth-of-type(1) {
+        border: dashed 2px hsla(0, 0%, 100%, 0.3);
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    div.download-wrapper svg {
+        border: none;
+        display: inline;
+        margin: 0;
+        padding: 5px 0;
+        vertical-align: bottom;
+    }
+
+    div.btn-wrapper {
+        width: 150px;
+        height: 36px;
+        margin: 40px auto 0px auto;
+        display: block;
+        position: relative;
+        cursor: pointer;
+    }
+
+    div.btn-wrapper:hover label.btn {
+        background-color: hsl(175, 73%, 43%);
+    }
+
+    div.btn-wrapper:active label.btn {
+        background-color: hsl(175, 73%, 40%);
+    }
+
+    label.btn {
+        text-align: center;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        background-color: hsl(175, 64%, 47%);
+        color: hsl(0, 0%, 100%);
+        position: absolute;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    input[type="file"] {
+        width: 150px;
+        height: 36px;
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        display: none;
+    }
+
+    form {
+        display: none;
+        text-align: center;
+    }
+
+    form input[type="number"] {
+        padding: 10px 10px;
+        border-radius: 4px;
+        border: none;
+        font-size: 1rem;
+        display: inline-block;
+        margin: 5px;
+    }
+
+    button {
+        text-align: center;
+        padding: 10px 15px;
+        background-color: hsl(175, 64%, 47%);
+        color: hsl(0, 0%, 100%);
+        border-radius: 4px;
+        font-size: 1rem;
+        border: none;
+        display: inline-block;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #1dbcaf;
+    }
+
+    button:active {
+        background-color: #1bb0a3;
+    }
+
+    .download-png {
+        font-size: 1.3em;
+        padding: 10px 45px;
+        background-color: #00bcd4;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 4px;
+        display: inline-block;
+    }
+
+    .download-png:hover {
+        background-color: #03a6bb;
+    }
+
+    .download-png:active {
+        background-color: #017c8c;
+    }
+
+    div.download-wrapper {
+        margin: 25px;
+        display: none;
+        text-align: center;
+    }
+
+    #fromcanvas {
+        display: none;
+    }
+
+    p.credits {
+        margin-top: 50px;
+        color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+    }
+
+    p.credits a {
+        color: #2bc7ba;
+        text-decoration: none;
+        border-bottom: dashed 1px #2bc7ba;
+    }
+
+    p.credits a:hover {
+        border-bottom: none;
+    }
+
+    p.credits span {
+        color: #f26183;
+    }
+
+    p.promote {
+        color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+    }
+
+    p.promote a {
+        color: #2bc7ba;
+        text-decoration: none;
+        border-bottom: dashed 1px #2bc7ba;
+        margin: 5px 10px;
+        display: inline-block;
+    }
+
+    p.promote a:hover {
+        border-bottom: none;
+    }
+
+    p.promote span {
+        color: #f26183;
+    }
+</style>

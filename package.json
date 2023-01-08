@@ -1,0 +1,31 @@
+{
+    "name": "astro-rescaler",
+    "type": "module",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "astro": "astro",
+        "build": "astro check && tsc --noEmit && astro build",
+        "check": "astro check && prettier --check --plugin-search-dir=. .",
+        "dev": "astro dev",
+        "format": "prettier --cache --write --plugin-search-dir=. .",
+        "preview": "astro preview",
+        "start": "astro dev"
+    },
+    "dependencies": {
+        "@astropub/icons": "^0.2.0",
+        "astro": "^1.9.1",
+        "typescript": "^4.9.4"
+    },
+    "devDependencies": {
+        "astro-compress": "^1.1.25",
+        "astro-compressor": "^0.2.2",
+        "astro-emoji": "^1.2.0",
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.21",
+        "postcss-html": "^1.5.0",
+        "prettier": "^2.8.2",
+        "prettier-plugin-astro": "^0.7.2",
+        "svgo": "^2.8.0"
+    }
+}

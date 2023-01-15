@@ -1,66 +1,66 @@
 ---
-import Head from "../components/BaseHead.astro";
+import Head from '../components/BaseHead.astro'
 
 export interface Props {
-    title: string;
+	title: string
 }
 
-const { title } = Astro.props;
+const { title } = Astro.props
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-    <Head title={title} />
-    <body>
-        <slot />
-        <style is:global>
-            * {
-                box-sizing: border-box;
-            }
+	<Head title={title} />
+	<body>
+		<slot />
+		<style is:global>
+			* {
+				box-sizing: border-box;
+			}
 
-            body,
-            h1,
-            h2,
-            p {
-                margin: 0;
-            }
+			body,
+			h1,
+			h2,
+			p {
+				margin: 0;
+			}
 
-            html:focus-within {
-                scroll-behavior: smooth;
-            }
+			html:focus-within {
+				scroll-behavior: smooth;
+			}
 
-            body {
-                background-color: #263239;
-                border: dashed 1rem #ffffff;
-                border-radius: 0.8rem;
-                display: grid;
-                font-family: "Roboto", sans-serif;
-                line-height: 1.5;
-                min-height: 100vh;
-                place-items: center;
-                text-rendering: optimizeSpeed;
-            }
+			body {
+				background-color: #263239;
+				border: dashed 1rem #ffffff;
+				border-radius: 0.8rem;
+				display: grid;
+				font-family: 'Roboto', sans-serif;
+				line-height: 1.5;
+				min-height: 100vh;
+				place-items: center;
+				text-rendering: optimizeSpeed;
+			}
 
-            img,
-            svg {
-                display: block;
-                max-width: 100%;
-            }
+			img,
+			svg {
+				display: block;
+				max-width: 100%;
+			}
 
-            @media (prefers-reduced-motion: reduce) {
-                html:focus-within {
-                    scroll-behavior: auto;
-                }
+			@media (prefers-reduced-motion: reduce) {
+				html:focus-within {
+					scroll-behavior: auto;
+				}
 
-                *,
-                *::before,
-                *::after {
-                    animation-duration: 0.01ms !important;
-                    animation-iteration-count: 1 !important;
-                    transition-duration: 0.01ms !important;
-                    scroll-behavior: auto !important;
-                }
-            }
-        </style>
-    </body>
+				*,
+				*::before,
+				*::after {
+					animation-duration: 0.01ms !important;
+					animation-iteration-count: 1 !important;
+					transition-duration: 0.01ms !important;
+					scroll-behavior: auto !important;
+				}
+			}
+		</style>
+	</body>
 </html>

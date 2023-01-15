@@ -38,4 +38,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## Acknowledment
 
-- [myScale](https://webkul.github.io/myscale/)
+-   [myScale](https://webkul.github.io/myscale/)

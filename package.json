@@ -1,29 +1,32 @@
 {
-    "name": "astro-rescaler",
-    "type": "module",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-        "astro": "astro",
-        "build": "tsc --noEmit && astro build",
-        "check": "prettier --check --plugin-search-dir=. .",
-        "dev": "astro dev",
-        "format": "prettier --cache --write --plugin-search-dir=. .",
-        "preview": "astro preview",
-        "start": "astro dev"
-    },
-    "devDependencies": {
-        "@astropub/icons": "^0.2.0",
-        "astro": "^1.9.2",
-        "astro-compress": "^1.1.27",
-        "astro-compressor": "^0.2.2",
-        "astro-emoji": "^1.2.0",
-        "autoprefixer": "^10.4.13",
-        "postcss": "^8.4.21",
-        "postcss-html": "^1.5.0",
-        "prettier": "^2.8.3",
-        "prettier-plugin-astro": "^0.7.2",
-        "svgo": "^2.8.0",
-        "typescript": "^4.9.4"
-    }
+	"name": "astro-rescaler",
+	"type": "module",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"astro": "astro",
+		"build": "tsc --noEmit && astro build",
+		"check": "prettier:check",
+		"dev": "astro dev",
+		"format": "prettier --cache --write --plugin-search-dir=. .",
+		"prettier:check": "prettier --cache --check --plugin-search-dir=. .",
+		"preview": "astro preview",
+		"start": "astro dev"
+	},
+	"devDependencies": {
+		"@astropub/icons": "^0.2.0",
+		"astro": "^1.9.2",
+		"astro-compress": "^1.1.27",
+		"astro-compressor": "^0.2.2",
+		"astro-emoji": "^1.2.0",
+		"autoprefixer": "^10.4.13",
+		"is-svg": "^4.3.2",
+		"mini-svg-data-uri": "^1.4.4",
+		"postcss": "^8.4.21",
+		"postcss-html": "^1.5.0",
+		"prettier": "^2.8.3",
+		"prettier-plugin-astro": "^0.7.2",
+		"svgo": "^2.8.0",
+		"typescript": "^4.9.4"
+	}
 }

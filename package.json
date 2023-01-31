@@ -17,7 +17,7 @@
 		"@astropub/icons": "^0.2.0",
 		"astro": "^2.0.0",
 		"astro-compress": "^1.1.27",
-		"astro-compressor": "^0.2.2",
+		"astro-compressor": "^0.3.0",
 		"astro-emoji": "^1.2.0",
 		"autoprefixer": "^10.4.13",
 		"is-svg": "^4.3.2",

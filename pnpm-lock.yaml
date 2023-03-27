@@ -4,7 +4,7 @@ specifiers:
   '@astropub/icons': ^0.2.0
   astro: ^2.0.0
   astro-compress: ^1.1.27
-  astro-compressor: ^0.3.0
+  astro-compressor: ^0.4.0
   astro-emoji: ^1.2.0
   autoprefixer: ^10.4.13
   is-svg: ^4.3.2
@@ -20,7 +20,7 @@ devDependencies:
   '@astropub/icons': 0.2.0_astro@2.1.7
   astro: 2.1.7
   astro-compress: 1.1.35
-  astro-compressor: 0.3.0
+  astro-compressor: 0.4.0
   astro-emoji: 1.2.0
   autoprefixer: 10.4.14_postcss@8.4.21
   is-svg: 4.4.0
@@ -852,8 +852,8 @@ packages:
       terser: 5.16.5
     dev: true
 
-  /astro-compressor/0.3.0:
-    resolution: {integrity: sha512-w2qdtUgd75RDSPX9m693VVr8bFSuLpTPxs/Toy6kEAsr082AOGRivOl/1pmjf6tDWaU07rlX5X5ZV90ZP6/RGg==}
+  /astro-compressor/0.4.0:
+    resolution: {integrity: sha512-yw6wM+cjkdyAMc6HW2lrdinOxt64PwQuL5NCAe71cXF/5xjnyJhgg9nyyFE32oQtmtd5I/57Pyp/kPe9IfYAxg==}
     dev: true
 
   /astro-emoji/1.2.0:

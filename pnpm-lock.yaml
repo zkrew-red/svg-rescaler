@@ -46,7 +46,7 @@ importers:
         version: 0.13.0
       svgo:
         specifier: ^3.0.0
-        version: 3.3.0
+        version: 3.3.1
       typescript:
         specifier: ^5.0.0
         version: 5.4.5
@@ -2221,8 +2221,8 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
-  svgo@3.3.0:
-    resolution: {integrity: sha512-y350OL6eAmhDbWcASdukXoG0MbpdfJQPHwEUAaTW1HBNSO2VErJ35fs7uNLSWjzFDhfua517RcouBzjZoO1JFg==}
+  svgo@3.3.1:
+    resolution: {integrity: sha512-xQQTIGRl3gHTO2PFlZFLl+Xwofj+CMOPitfoByGBNAniQnY6SbGgd31u3C8RTqdlqZqYNl9Sb83VXbimVHcU6w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -5064,7 +5064,7 @@ snapshots:
       csso: 5.0.5
       picocolors: 1.0.0
 
-  svgo@3.3.0:
+  svgo@3.3.1:
     dependencies:
       '@trysound/sax': 0.2.0
       commander: 7.2.0

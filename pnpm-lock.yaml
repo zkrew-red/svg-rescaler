@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@astropub/icons':
         specifier: ^0.2.0
-        version: 0.2.0(astro@4.9.1(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5))
+        version: 0.2.0(astro@4.9.2(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5))
       astro:
         specifier: ^4.0.0
-        version: 4.9.1(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5)
+        version: 4.9.2(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5)
       astro-compress:
         specifier: ^2.0.0
-        version: 2.2.25(astro@4.9.1(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5))
+        version: 2.2.25(astro@4.9.2(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5))
       astro-compressor:
         specifier: ^0.4.0
         version: 0.4.1
@@ -823,8 +823,8 @@ packages:
   astro-emoji@1.2.0:
     resolution: {integrity: sha512-VSOWEuIJEUGX34w591LlwVWupr6Y+oFa9/HG/L3t1VdQRqK8j9c1578m67auQXMgC1FMF8S5poYF61CPawlrLw==}
 
-  astro@4.9.1:
-    resolution: {integrity: sha512-9TsoAu0WBPiqyAIj9H0JW7R+tIjPjFsPKo70Nja6WL3imTTuUJQmnCre4ZVmoNV3oicTTlb+N4zjRYANW0Ty9A==}
+  astro@4.9.2:
+    resolution: {integrity: sha512-apzpRoISk6L8g99m3zKIW5SYxw2GhOju/1Gq0Ccf3SH+X2UcFXF+MTdxPOFl5yJUQg7X0qsVQDOIVf8zHRRKFg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1468,8 +1468,8 @@ packages:
   mdast-util-find-and-replace@3.0.1:
     resolution: {integrity: sha512-SG21kZHGC3XRTSUhtofZkBzZTJNM5ecCi0SK2IMKmSXR8vO3peL+kb1O0z7Zl83jKtutG4k5Wv/W7V3/YHvzPA==}
 
-  mdast-util-from-markdown@2.0.0:
-    resolution: {integrity: sha512-n7MTOr/z+8NAX/wmhhDji8O3bRvPTV/U0oTCaZJkjhPSKTPhS3xufVhKGF8s1pJ7Ox4QgoIU7KHseh09S+9rTA==}
+  mdast-util-from-markdown@2.0.1:
+    resolution: {integrity: sha512-aJEUyzZ6TzlsX2s5B4Of7lN7EQtAxvtradMMglCQDyaTFgse6CmtmdJ15ElnVRlCg1vpNyVtbem0PWzlNieZsA==}
 
   mdast-util-gfm-autolink-literal@2.0.0:
     resolution: {integrity: sha512-FyzMsduZZHSc3i0Px3PQcBT4WJY/X/RCtEJKuybiC6sjPqLv7h1yqAkmILZtuxMSsUyaLUWNp71+vQH2zqp5cg==}
@@ -2228,9 +2228,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astropub/icons@0.2.0(astro@4.9.1(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5))':
+  '@astropub/icons@0.2.0(astro@4.9.2(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5))':
     dependencies:
-      astro: 4.9.1(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5)
+      astro: 4.9.2(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5)
 
   '@babel/code-frame@7.24.6':
     dependencies:
@@ -2779,7 +2779,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-compress@2.2.25(astro@4.9.1(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5)):
+  astro-compress@2.2.25(astro@4.9.2(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5)):
     dependencies:
       '@playform/pipe': 0.0.5
       '@types/csso': 5.0.4
@@ -2792,7 +2792,7 @@ snapshots:
       svgo: 3.3.2
       terser: 5.31.0
     optionalDependencies:
-      astro: 4.9.1(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5)
+      astro: 4.9.2(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5)
     transitivePeerDependencies:
       - '@playform/document'
 
@@ -2800,7 +2800,7 @@ snapshots:
 
   astro-emoji@1.2.0: {}
 
-  astro@4.9.1(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5):
+  astro@4.9.2(@types/node@20.12.12)(lightningcss@1.25.0)(terser@5.31.0)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.8.0
       '@astrojs/internal-helpers': 0.4.0
@@ -3549,7 +3549,7 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  mdast-util-from-markdown@2.0.0:
+  mdast-util-from-markdown@2.0.1:
     dependencies:
       '@types/mdast': 4.0.4
       '@types/unist': 3.0.2
@@ -3578,7 +3578,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
-      mdast-util-from-markdown: 2.0.0
+      mdast-util-from-markdown: 2.0.1
       mdast-util-to-markdown: 2.1.0
       micromark-util-normalize-identifier: 2.0.0
     transitivePeerDependencies:
@@ -3587,7 +3587,7 @@ snapshots:
   mdast-util-gfm-strikethrough@2.0.0:
     dependencies:
       '@types/mdast': 4.0.4
-      mdast-util-from-markdown: 2.0.0
+      mdast-util-from-markdown: 2.0.1
       mdast-util-to-markdown: 2.1.0
     transitivePeerDependencies:
       - supports-color
@@ -3597,7 +3597,7 @@ snapshots:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
       markdown-table: 3.0.3
-      mdast-util-from-markdown: 2.0.0
+      mdast-util-from-markdown: 2.0.1
       mdast-util-to-markdown: 2.1.0
     transitivePeerDependencies:
       - supports-color
@@ -3606,14 +3606,14 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
-      mdast-util-from-markdown: 2.0.0
+      mdast-util-from-markdown: 2.0.1
       mdast-util-to-markdown: 2.1.0
     transitivePeerDependencies:
       - supports-color
 
   mdast-util-gfm@3.0.0:
     dependencies:
-      mdast-util-from-markdown: 2.0.0
+      mdast-util-from-markdown: 2.0.1
       mdast-util-gfm-autolink-literal: 2.0.0
       mdast-util-gfm-footnote: 2.0.0
       mdast-util-gfm-strikethrough: 2.0.0
@@ -4073,7 +4073,7 @@ snapshots:
   remark-parse@11.0.0:
     dependencies:
       '@types/mdast': 4.0.4
-      mdast-util-from-markdown: 2.0.0
+      mdast-util-from-markdown: 2.0.1
       micromark-util-types: 2.0.0
       unified: 11.0.4
     transitivePeerDependencies:

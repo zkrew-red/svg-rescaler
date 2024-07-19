@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@astropub/icons':
         specifier: ^0.2.0
-        version: 0.2.0(astro@4.12.0(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3))
+        version: 0.2.0(astro@4.12.1(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3))
       astro:
         specifier: ^4.0.0
-        version: 4.12.0(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3)
+        version: 4.12.1(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3)
       astro-compress:
         specifier: ^2.0.0
         version: 2.2.28(@types/node@20.14.2)(typescript@5.5.3)
@@ -666,8 +666,8 @@ packages:
   astro-emoji@1.2.0:
     resolution: {integrity: sha512-VSOWEuIJEUGX34w591LlwVWupr6Y+oFa9/HG/L3t1VdQRqK8j9c1578m67auQXMgC1FMF8S5poYF61CPawlrLw==}
 
-  astro@4.12.0:
-    resolution: {integrity: sha512-JCfrJemDRgc87KVBQ9x4zIwadSuWdG1WjzR3b59nUY+mVeph8W5Y68DrYU5s1JMhQN3+yn2p3lexg4lJM41rsg==}
+  astro@4.12.1:
+    resolution: {integrity: sha512-KwBoXYL4L1XLTTjoj4z6q1g/tZfWDKR1pKSTAshVqt5FH2eu82pnGW737SxcT/Ssg/hLlb9KnWiclXmqWpcbCQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1998,9 +1998,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astropub/icons@0.2.0(astro@4.12.0(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3))':
+  '@astropub/icons@0.2.0(astro@4.12.1(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3))':
     dependencies:
-      astro: 4.12.0(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3)
+      astro: 4.12.1(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3)
 
   '@babel/code-frame@7.24.7':
     dependencies:
@@ -2497,7 +2497,7 @@ snapshots:
       '@playform/pipe': 0.0.6
       '@types/csso': 5.0.4
       '@types/html-minifier-terser': 7.0.2
-      astro: 4.12.0(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3)
+      astro: 4.12.1(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3)
       csso: 5.0.5
       html-minifier-terser: 7.2.0
       kleur: 4.1.5
@@ -2518,7 +2518,7 @@ snapshots:
 
   astro-emoji@1.2.0: {}
 
-  astro@4.12.0(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3):
+  astro@4.12.1(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3):
     dependencies:
       '@astrojs/compiler': 2.9.2
       '@astrojs/internal-helpers': 0.4.1

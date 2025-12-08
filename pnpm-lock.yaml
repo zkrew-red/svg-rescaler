@@ -18,8 +18,8 @@ importers:
         specifier: ^2.0.0
         version: 2.3.8(@types/node@22.13.14)(rollup@4.53.3)(typescript@5.9.3)
       astro-compressor:
-        specifier: ^0.4.0
-        version: 0.4.1
+        specifier: ^1.0.0
+        version: 1.2.0
       astro-emoji:
         specifier: ^1.2.0
         version: 1.2.0
@@ -676,8 +676,9 @@ packages:
   astro-compress@2.3.8:
     resolution: {integrity: sha512-XajjEtSTJuVRBOrtZ/Siavd4KcH47SEHo0XoZZeYVRF6BODSBqxVdtlfkqYJKM+F4XRUmLDS5ncVTILnQYvvXw==}
 
-  astro-compressor@0.4.1:
-    resolution: {integrity: sha512-IAgYAlxYRMolaptsFB9quH7RxX4eUeC4UfULCPhT+ILcg7m1kbaxuyUKqGg9Hh+KZ+FNPPDAz7DqUfl+HDWhQg==}
+  astro-compressor@1.2.0:
+    resolution: {integrity: sha512-Y0UWW/AjyLcHlRhCK9yUqy0kg4qZHd54kDIMY4C/1huS6pSVZNsMY7a3Jk7o5RjytIkVaLDDkcUzR8SgipBH8g==}
+    engines: {node: '>=22'}
 
   astro-emoji@1.2.0:
     resolution: {integrity: sha512-VSOWEuIJEUGX34w591LlwVWupr6Y+oFa9/HG/L3t1VdQRqK8j9c1578m67auQXMgC1FMF8S5poYF61CPawlrLw==}
@@ -2473,7 +2474,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-compressor@0.4.1: {}
+  astro-compressor@1.2.0: {}
 
   astro-emoji@1.2.0: {}
 
